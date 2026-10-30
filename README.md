@@ -4,6 +4,17 @@ A Discord bot for running a Roblox (Robux) shop server. It handles the whole buy
 
 This repo is a showcase cut of a production bot that runs a live trading community with 600+ buyers. Server IDs, secrets and the anti-alt verification system have been removed. Everything else is the real code.
 
+## In action
+
+Screenshots from the bot running in a live server. Usernames and the bot's identity are blurred.
+
+<p>
+  <img src="docs/ticket-panel.png" alt="Ticket panel with an Open a ticket button" width="380">
+  <img src="docs/ticket-close-log.png" alt="Ticket close log with transcript file, details, View Online Transcript and Edit Reason buttons" width="560">
+</p>
+
+*Left: a ticket panel. Right: the close log, with the HTML transcript attached, the ticket details, an edited close reason, and buttons for the online transcript and editing the reason.*
+
 ## Features
 
 **Ticket system** (`src/Tickets.js`, `src/TicketPanels.js`)
