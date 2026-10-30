@@ -1,0 +1,20 @@
+{
+  "name": "dealdesk-discordbot",
+  "version": "1.0.0",
+  "description": "Discord bot for Roblox shop servers: ticket system with forms, transcripts and a web dashboard, dealer routing, and purchase logging.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "check": "node scripts/check.js"
+  },
+  "author": "jsn",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.24.7"
+  }
+}

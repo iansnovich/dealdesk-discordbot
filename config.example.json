@@ -1,0 +1,35 @@
+{
+  "guildId": "000000000000000000",
+  "ticketsV2BotId": "000000000000000000",
+  "channels": {
+    "robuxPanel": "000000000000000000",
+    "marketplacePanel": "000000000000000000",
+    "transcripts": "000000000000000000",
+    "purchaseLogs": "000000000000000000",
+    "totalSoldCounter": "000000000000000000"
+  },
+  "categories": {
+    "robuxTickets": "000000000000000000",
+    "marketplaceTickets": "000000000000000000"
+  },
+  "roles": {
+    "dealer": "000000000000000000",
+    "jrDealer": "000000000000000000",
+    "helper": "000000000000000000",
+    "member": "000000000000000000",
+    "buyer1k": "000000000000000000",
+    "marketplaceSupport": "000000000000000000",
+    "middleman": "000000000000000000"
+  },
+  "purchaseTiers": [
+    { "minRobux": 1000, "roleId": "000000000000000000" },
+    { "minRobux": 10000, "roleId": "000000000000000000" },
+    { "minRobux": 50000, "roleId": "000000000000000000" },
+    { "minRobux": 100000, "roleId": "000000000000000000" },
+    { "minRobux": 1000000, "roleId": "000000000000000000" }
+  ],
+  "tickets": {
+    "perUserLimit": 2,
+    "firstNumber": 1
+  }
+}
